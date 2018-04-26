@@ -14,7 +14,7 @@
 
   <div class="field">
    <%= label_tag "name", "Name" %>
-   <%= text_field_tag "name" %>
+   <%= text_field_tag "name", @person.name %>
   </div>
 
   <div class="field">
@@ -29,4 +29,4 @@
 
 
   <%= submit_tag "Create" %>
-<% end %>
+<% end %> <!-- Form Tag End -->
